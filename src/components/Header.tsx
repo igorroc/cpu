@@ -36,6 +36,8 @@ const Wrapper = styled("div", {
 			width: "auto",
 			height: "30px",
 		},
+
+		"& ul": { listStyle: "none" },
 	},
 })
 
@@ -101,6 +103,7 @@ const SideNav = styled("div", {
 			display: "flex",
 			flexDirection: "column",
 			gap: "10px",
+			listStyle: "none",
 
 			"& button": {
 				fontSize: "1em",

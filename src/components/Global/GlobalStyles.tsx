@@ -26,7 +26,7 @@ const globalStyles = globalCss({
 	},
 
 	ul: {
-		listStyle: "none",
+		paddingLeft: "1em",
 	},
 })
 
