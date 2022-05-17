@@ -3,6 +3,7 @@ import Header from "../components/Header"
 import LogoCPU from "../assets/img/Logo CPU.png"
 import { MaxWidthWrapper } from "../components/Global/MaxWidthWrapper"
 import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import { Footer } from "../components/Footer"
 
 const MainContent = styled("main", {
 	"&": {
@@ -91,7 +92,7 @@ const Section = styled("div", {
 
 function Home() {
 	return (
-		<div>
+		<div id="pageTop">
 			<Header />
 			<MaxWidthWrapper>
 				<MainContent>
@@ -124,7 +125,7 @@ function Home() {
 					</div>
 				</MainContent>
 				<Section>
-					<h2>Regulamento</h2>
+					<h2 id="regulamento">Regulamento</h2>
 					<div id="wrapperRegulamento">
 						<div className="row">
 							<div className="title">
@@ -189,6 +190,8 @@ function Home() {
 					</div>
 				</Section>
 			</MaxWidthWrapper>
+			<span id="contato"></span>
+			<Footer />
 		</div>
 	)
 }
