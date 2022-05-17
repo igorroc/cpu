@@ -39,6 +39,7 @@ const Section = styled("div", {
 		"& #wrapperRegulamento": {
 			background: "white",
 			borderRadius: "10px",
+			outline: "10px solid #951f1f",
 			display: "flex",
 			flexDirection: "column",
 			color: "black",
