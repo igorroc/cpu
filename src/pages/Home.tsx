@@ -80,7 +80,7 @@ const Section = styled("div", {
 					background: "#f7f7f7",
 				},
 
-				"&.rowOpen .rowContent": {
+				"&:hover .rowContent": {
 					padding: "20px 30px",
 					maxHeight: "200px",
 				},
@@ -90,11 +90,6 @@ const Section = styled("div", {
 })
 
 function Home() {
-	function handleShow(ev: any) {
-		console.log(ev)
-		ev.target.classList.toggle("rowOpen")
-	}
-
 	return (
 		<div>
 			<Header />
@@ -131,7 +126,7 @@ function Home() {
 				<Section>
 					<h2>Regulamento</h2>
 					<div id="wrapperRegulamento">
-						<div className="row" onClick={handleShow}>
+						<div className="row">
 							<div className="title">
 								<span className="number">I</span>
 								<h4>Modelos de Equipe</h4>
@@ -143,7 +138,7 @@ function Home() {
 								constituídas obrigatoriamente por 4 integrantes
 							</div>
 						</div>
-						<div className="row" onClick={handleShow}>
+						<div className="row">
 							<div className="title">
 								<span className="number">II</span>
 								<h4>Equipamentos</h4>
@@ -155,7 +150,7 @@ function Home() {
 								constituídas obrigatoriamente por 4 integrantes
 							</div>
 						</div>
-						<div className="row" onClick={handleShow}>
+						<div className="row">
 							<div className="title">
 								<span className="number">III</span>
 								<h4>Linguagens</h4>
@@ -167,7 +162,7 @@ function Home() {
 								constituídas obrigatoriamente por 4 integrantes
 							</div>
 						</div>
-						<div className="row" onClick={handleShow}>
+						<div className="row">
 							<div className="title">
 								<span className="number">IV</span>
 								<h4>Material de apoio</h4>
@@ -179,7 +174,7 @@ function Home() {
 								constituídas obrigatoriamente por 4 integrantes
 							</div>
 						</div>
-						<div className="row" onClick={handleShow}>
+						<div className="row">
 							<div className="title">
 								<span className="number">V</span>
 								<h4>Aquecimento</h4>
