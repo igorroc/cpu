@@ -2,10 +2,8 @@ import { styled } from "@stitches/react"
 import Logo from "../assets/svg/logoCPU.svg?component"
 import LogoSmall from "../assets/svg/logoCPU.svg?component"
 
-import { MaxWidthWrapper } from "./Global/MaxWidthWrapper"
 import useWindowDimensions from "../hooks/UseWindowDimentions"
 import { useState } from "react"
-import { Icon } from "./Icon"
 
 const HeaderWrapper = styled("header", {
 	"&": {
