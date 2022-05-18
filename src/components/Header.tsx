@@ -157,7 +157,12 @@ function Header() {
 							<a href="#contato">Contato</a>
 						</li>
 						<li>
-							<a href="#inscricao">Inscreva-se!</a>
+							<a
+								href="https://www.sympla.com.br/cpu__1585564"
+								target="_blank"
+							>
+								Inscreva-se!
+							</a>
 						</li>
 					</WrapperLinks>
 				</Wrapper>
@@ -191,7 +196,12 @@ function Header() {
 									<a href="#contato">Contato</a>
 								</li>
 								<li>
-									<a href="#inscricao">Inscreva-se!</a>
+									<a
+										href="https://www.sympla.com.br/cpu__1585564"
+										target="_blank"
+									>
+										Inscreva-se!
+									</a>
 								</li>
 							</ul>
 						</SideNav>
