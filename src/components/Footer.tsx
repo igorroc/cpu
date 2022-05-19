@@ -62,69 +62,10 @@ const FooterDiv = styled("footer", {
 	},
 })
 
-const ContactDiv = styled("div", {
-	position: "relative",
-	width: "80%",
-	display: "flex",
-	padding: "2em 3em",
-	borderRadius: "5px 50px 50px 5px",
-	transform: "translateY(-50%)",
-
-	backgroundColor: "#202131",
-	filter: `drop-shadow(0 1px 1px rgba(0,0,0,0.20))
-			drop-shadow(0 2px 2px rgba(0,0,0,0.15))
-			drop-shadow(0 4px 4px rgba(0,0,0,0.1))
-			drop-shadow(0 6px 6px rgba(0,0,0,0.05))`,
-
-	"& > div > p": {
-		fontSize: "2em",
-		fontWeight: "bold",
-	},
-
-	"& > button": {
-		position: "absolute",
-		top: "50%",
-		right: "-100px",
-		transform: "translateY(-50%)",
-		letterSpacing: "1px",
-		fontWeight: "bolder",
-		fontSize: "2em",
-		padding: "0.5em 1.6em",
-
-		"&:hover": {
-			transform: "translateY(-50%) scale(1.068)",
-		},
-	},
-
-	"@large": {
-		width: "max-content",
-		flexDirection: "column",
-		textAlign: "center",
-		borderRadius: "20px",
-		justifyContent: "center",
-		alignItems: "center",
-		paddingBottom: "4em",
-		margin: "0 auto",
-
-		"& > button": {
-			transform: "translateY(50%)",
-			top: "unset",
-			right: "unset",
-			bottom: "0",
-		},
-	},
-
-	"@small": {
-		fontSize: "12px",
-
-		"& > div > p": {
-			fontSize: "1.5em",
-		},
-	},
-})
-
 const SocialList = styled("ul", {
 	display: "flex",
+	flexWrap: "wrap",
+	justifyContent: "center",
 	gap: "5px",
 
 	"@medium": {
