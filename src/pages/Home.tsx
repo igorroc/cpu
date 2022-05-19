@@ -149,11 +149,11 @@ function Home() {
 								</p>
 								<p>
 									Equipes competitivas devem ser constituídas
-									obrigatoriamente por 4 integrantes
+									obrigatoriamente por 3 integrantes
 								</p>
 								<p>
 									Equipes café com leite devem ser
-									constituídas por até 3 integrantes
+									constituídas por até 2 integrantes
 								</p>
 							</div>
 						</div>
