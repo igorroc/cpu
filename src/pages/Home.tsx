@@ -7,7 +7,7 @@ import { Footer } from "../components/Footer"
 
 const MainContent = styled("main", {
 	"&": {
-		marginTop: "15vh",
+		paddingTop: "15vh",
 		display: "flex",
 		gap: "50px",
 		justifyContent: "center",
