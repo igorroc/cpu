@@ -12,6 +12,7 @@ const MainContent = styled("main", {
 		gap: "50px",
 		justifyContent: "center",
 		alignItems: "center",
+		flexWrap: "wrap",
 
 		"& img": {
 			width: "250px",
