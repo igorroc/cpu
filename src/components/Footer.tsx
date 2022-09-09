@@ -57,6 +57,11 @@ const FooterDiv = styled("footer", {
 	"& #copy": {
 		textAlign: "center",
 		marginBottom: "50px",
+
+		a: {
+			color: "#8ba2ff",
+			textDecoration: "underline",
+		},
 	},
 
 	"@small": {
@@ -229,7 +234,11 @@ export function Footer() {
 				<p id="copy">
 					©2022 All rights reserved.
 					<br />
-					Desenvolvido com muito ❤ ️e ☕ pela TecnoJr.
+					Desenvolvido com muito ❤ ️e ☕ pela{" "}
+					<a href="https://tecnojr.com.br" target="_blank">
+						TecnoJr
+					</a>
+					.
 				</p>
 			</MaxWidthWrapper>
 		</FooterDiv>

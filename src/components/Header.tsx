@@ -155,12 +155,7 @@ function Header() {
 							<a href="#contato">Contato</a>
 						</li>
 						<li>
-							<a
-								href="https://www.sympla.com.br/cpu__1585564"
-								target="_blank"
-							>
-								Inscreva-se!
-							</a>
+							<a href="/inscricao">Inscreva-se!</a>
 						</li>
 					</WrapperLinks>
 				</Wrapper>
