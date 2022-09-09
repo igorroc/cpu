@@ -11,7 +11,7 @@ const Main = styled("main", {
 	width: "100vw",
 	height: "100vh",
 	display: "flex",
-    gap: "50px",
+	gap: "50px",
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "center",
@@ -52,7 +52,7 @@ const Main = styled("main", {
 
 	a: {
 		color: "white",
-        textDecoration: "underline"
+		textDecoration: "underline",
 	},
 })
 
@@ -84,8 +84,7 @@ export default function Inscricao() {
 				</div>
 				<h1>Aguente firme!</h1>
 				<p>
-					O link para o evento vai estar disponível às 20h de hoje
-					(09/09)
+					O link para o evento vai estar disponível dia 10/09 às 20h
 					{/* Você vai ser redirecionado para outra página, deve levar{" "}
 					{frases[count]}. */}
 				</p>
