@@ -173,7 +173,7 @@ function Home() {
 								<h4>Aquecimento</h4>
 							</div>
 							<div className="rowContent">
-								Acontecerá das 12:00 às 14:00
+								Acontecerá das 08:00 às 11:00
 							</div>
 						</div>
 						<div className="row">
@@ -236,8 +236,8 @@ function Home() {
 										console (entrada padrão).
 									</li>
 									<li>
-										O seu programa deve gerar a saı́da em
-										console (saı́da padrão).
+										O seu programa deve gerar a saída em
+										console (saída padrão).
 									</li>
 								</ol>
 							</div>
@@ -250,9 +250,9 @@ function Home() {
 							<div className="rowContent">
 								<ol>
 									<li>
-										Quando uma linha da saı́da contém vários
+										Quando uma linha da saída contém vários
 										valores, estes devem ser separados por
-										um único espaço em branco; a saı́da não
+										um único espaço em branco; a saída não
 										deve conter nenhum outro espaço em
 										branco.
 									</li>
@@ -292,7 +292,7 @@ function Home() {
 										As questões, embora escritas de forma
 										original pela equipe organizadora, podem
 										ser baseadas em problemas de mesma
-										categoria já existentes.{" "}
+										categoria já existentes.
 									</li>
 								</ol>
 							</div>
