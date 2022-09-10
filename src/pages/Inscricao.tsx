@@ -84,7 +84,7 @@ export default function Inscricao() {
 				</div>
 				<h1>Aguente firme!</h1>
 				<p>
-					O link para o evento vai estar disponível dia 10/09 às 20h
+					O link para o campeonato vai estar disponível dia 11/09 às 20h
 					{/* Você vai ser redirecionado para outra página, deve levar{" "}
 					{frases[count]}. */}
 				</p>
