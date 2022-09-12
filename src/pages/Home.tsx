@@ -92,7 +92,7 @@ const Section = styled("div", {
 
 				"&:hover .rowContent": {
 					padding: "20px 30px",
-					maxHeight: "200px",
+					maxHeight: "350px",
 				},
 			},
 		},
