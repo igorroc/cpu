@@ -173,7 +173,7 @@ function Home() {
 								<h4>Aquecimento</h4>
 							</div>
 							<div className="rowContent">
-								Acontecerá das 08:00 às 11:00
+								Acontecerá das 09:00 às 11:00
 							</div>
 						</div>
 						<div className="row">
