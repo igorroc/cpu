@@ -5,7 +5,6 @@ const globalStyles = globalCss({
 		margin: 0,
 		padding: 0,
 		fontFamily: "Montserrat",
-		fontSize: "16px",
 	},
 	"@font-face": {
 		fontFamily: "Montserrat",
@@ -18,6 +17,7 @@ const globalStyles = globalCss({
 		backgroundSize: "100%",
 		color: "white",
 		overflowX: "hidden",
+		fontSize: "16px",
 	},
 
 	a: {
