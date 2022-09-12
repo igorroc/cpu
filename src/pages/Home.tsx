@@ -99,6 +99,27 @@ const Section = styled("div", {
 	},
 })
 
+const LinkBotao = styled("a", {
+	display: "flex",
+	justifyContent: "center",
+	alignItems: "center",
+	margin: "0 auto",
+	marginTop: "100px",
+	width: "max-content",
+	padding: "10px 30px",
+	fontWeight: "bold",
+	fontSize: "1.5em",
+	// border: "1px solid white",
+	background:
+		"linear-gradient(135deg, transparent 10%, #951f1f 10%, #951f1f 90%, transparent 90%)",
+	transition: "all 300ms ease-out",
+
+	"&:hover": {
+		background:
+			"linear-gradient(135deg, transparent 10%, #b81212 10%, #b81212 90%, transparent 90%)",
+	},
+})
+
 function Home() {
 	return (
 		<div id="pageTop">
@@ -299,6 +320,7 @@ function Home() {
 						</div>
 					</div>
 				</Section>
+				<LinkBotao href="/inscricao">Fazer inscrição</LinkBotao>
 			</MaxWidthWrapper>
 			<span id="contato"></span>
 			<Footer />
