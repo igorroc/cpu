@@ -7,7 +7,6 @@ import clock from "../assets/clock.gif"
 
 const Main = styled("main", {
 	background: "#232323",
-	color: "#000",
 	width: "100vw",
 	height: "100vh",
 	display: "flex",
@@ -15,6 +14,7 @@ const Main = styled("main", {
 	flexDirection: "column",
 	alignItems: "center",
 	justifyContent: "center",
+	color: "#4b6299",
 
 	".modal": {
 		position: "relative",
@@ -32,6 +32,16 @@ const Main = styled("main", {
             8px 25.2px 30px rgba(0, 0, 0, 0.069),
             22px 69px 81px rgba(0, 0, 0, 0.1)`,
 
+		".img": {
+			maxHeight: "300px",
+
+			img: {
+				height: "100%",
+				width: "100%",
+				maxHeight: "300px",
+				objectFit: "contain",
+			},
+		},
 		"&>p": {
 			margin: "30px 0",
 		},
@@ -51,8 +61,7 @@ const Main = styled("main", {
 	},
 
 	a: {
-		color: "white",
-		textDecoration: "underline",
+		color: "#4b6299",
 	},
 })
 
@@ -60,41 +69,42 @@ export default function Inscricao() {
 	const [count, setCount] = useState(0)
 	const frases = ["3 segundos", "2 segundos", "1 segundo", "0 segundos"]
 
-	// useEffect(() => {
-	// 	const redirect = setTimeout(() => {
-	// window.location.href =
-	// 	"https://www.sympla.com.br/sinform-2022__1711481"
-	// 	}, 3000)
-	// 	const seconds = setInterval(() => {
-	// 		setCount((prev) => prev + 1)
-	// 	}, 1000)
-	// 	console.log(count)
+	useEffect(() => {
+		const redirect = setTimeout(() => {
+			window.location.href =
+				"https://www.sympla.com.br/cpu-20222__1712860"
+		}, 3000)
+		const seconds = setInterval(() => {
+			setCount((prev) => prev + 1)
+		}, 1000)
+		console.log(count)
 
-	// 	return () => {
-	// 		clearTimeout(redirect)
-	// 		clearInterval(seconds)
-	// 	}
-	// }, [])
+		return () => {
+			clearTimeout(redirect)
+			clearInterval(seconds)
+		}
+	}, [])
 
 	return (
 		<Main>
 			<div className="modal">
 				<div className="img">
-					<img src={clock} alt="send" />
+					<img src={send} alt="send" />
 				</div>
 				<h1>Aguente firme!</h1>
 				<p>
-					O link para o campeonato vai estar disponível dia 11/09 às 20h
-					{/* Você vai ser redirecionado para outra página, deve levar{" "}
-					{frases[count]}. */}
+					{/* O link para o campeonato vai estar disponível dia 11/09 às 20h */}
+					Você vai ser redirecionado para outra página, deve levar{" "}
+					{frases[count]}.
 				</p>
-				{/* <div className="small">
+				<div className="small">
 					<p>Caso você não seja redirecionado, clique no link:</p>
-					<a href="https://www.sympla.com.br/sinform-2022__1711481">https://www.sympla.com.br/sinform-2022__1711481</a>
-				</div> */}
+					<a href="https://www.sympla.com.br/cpu-20222__1712860">
+						https://www.sympla.com.br/cpu-20222__1712860
+					</a>
+				</div>
 				<div className="bar"></div>
 			</div>
-			<a href="/">Voltar</a>
 		</Main>
 	)
 }
